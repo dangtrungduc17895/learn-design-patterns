@@ -1,5 +1,9 @@
 package patterns.creational;
 
+/*
+- Một method có tham số là 1 type truyền vào để lấy ra Instance tương ứng của type đó
+- Các object đều implement của 1 interface để dễ xử lý
+ */
 public class FactoryMethodPattern {
 
   public Parent getInstance(ChildentType type) {

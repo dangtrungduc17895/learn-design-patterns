@@ -1,5 +1,12 @@
 package patterns.behavioral;
 
+/*
+- Tách biệt các function với các đối tượng
+- Use 1 visitor class để thực thi các function tuy theo đối tượng với 1 method visit với
+tham số là interface của các đối tượng. Trong hàm này sẽ check loại đối tượng để thực thi chức năng
+tương ứng
+- Các đối tượng có 1 method accept với tham số là Visitor
+ */
 public class VisitorPattern {
   public interface Visitor{
     void visit(Member member);

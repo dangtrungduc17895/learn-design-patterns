@@ -1,5 +1,10 @@
 package patterns.creational;
 
+/*
+- Chỉ tồn tại 1 instance duy nhất của class đó trong hệ thống
+- Kiểm tra khởi tạo 1 lần
+- Tắt tất cả các hàm thay đổi objetc đó
+ */
 public class SingletonPattern {
   private static SingletonPattern instance;
 

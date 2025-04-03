@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-Tạo 1 interface để giúp duyệt qua từng phần tử của 1 Collection
+- Tạo 1 interface để giúp duyệt qua từng phần tử của 1 Collection
+- Bao gồm 1 method hasNext - check tồn tại phần tử tiếp theo. 1 method next - lấy phần tử tiếp theo
  */
 public class IteratorPattern {
     public interface Iterator<T> {

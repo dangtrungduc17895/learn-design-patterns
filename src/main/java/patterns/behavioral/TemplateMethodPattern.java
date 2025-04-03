@@ -1,5 +1,9 @@
 package patterns.behavioral;
 
+/*
+- Một lớp abstract chứa các step method thực hiện nhiệm vụ
+- Những method nào cần tùy biến thì để thành abstract method cho các lớp con implement
+ */
 public class TemplateMethodPattern {
   public abstract static class Beverage {
     public void prepareRecipe() {

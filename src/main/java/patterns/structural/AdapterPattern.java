@@ -1,7 +1,7 @@
 package patterns.structural;
 /*
--Chuyển đổi giao diện của một lớp thành một giao diện khác mà client mong đợi.
--Giúp các lớp không tương thích (do giao diện khác nhau)
+- Chuyển đổi interface của một lớp thành một interface khác mà client mong đợi.
+- Giúp các lớp không tương thích (do interface khác nhau)
 có thể hoạt động cùng nhau mà không cần thay đổi mã nguồn của chúng.
  */
 public class AdapterPattern {

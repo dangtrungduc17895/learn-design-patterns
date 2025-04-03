@@ -1,5 +1,10 @@
 package patterns.behavioral;
 
+/*
+- Tạo 1 interface chứa method mong muốn
+- Tạo các lớp concrete của interface để triển khai cụ thể method
+- Các lớp context sẽ khởi tạo interface theo các lớp concrete để linh hoạt sử dụng method mong muon
+ */
 public class StrategyPattern {
   public interface Strategy {
     void move();

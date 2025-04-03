@@ -1,5 +1,10 @@
 package patterns.structural;
-
+/*
+- Tạo 1 interface
+- Cho realObject implement interface này
+- Create proxyClass implement kế thừa interface, chứa 1 realObject. Triển khai method
+bọc lấy method của realObject
+ */
 public class ProxyPattern {
   public interface Image{
     void display();
