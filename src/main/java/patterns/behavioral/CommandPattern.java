@@ -1,5 +1,10 @@
 package patterns.behavioral;
 
+/*
+* Tạo các CommandImpl riêng chung 1 interface Command
+* 1 Class chính sẽ có 1 field là command, chúng ta chỉ việc truyền CommandImpl vào lớp lấy là sử dụng được đúng ý muốn
+* Có thể check 1 cái type để truyền đúng command mà mình muốn
+* */
 public class CommandPattern {
 
   public static class Light {
